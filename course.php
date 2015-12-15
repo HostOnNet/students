@@ -22,14 +22,14 @@ require 'header.php';
             foreach ($courses as $course) {
                 $course = trim($course);
                 if (!empty($course)) {
-                    echo "<input type=\"checkbox\" name=\"$course\"/> $course<br>";
+                    echo "<input type=\"checkbox\" name=\"course[]\" value=\"$course\"/> $course<br>";
                 }
             }
 
             ?>
                 <br>
 
-                <input type="submit" name="submnit" value="Update" class="btn btn-lg btn-default" />
+                <input type="submit" name="submit" value="Update" class="btn btn-lg btn-default" />
             </form>
 
 

@@ -6,7 +6,7 @@ Auth::check();
 
 $user = Auth::getUser();
 
-$courses = explode("\n", $user['courses']);
+$courses = explode(",", $user['courses']);
 
 require 'header.php';
 
@@ -33,7 +33,7 @@ require 'header.php';
             </tr>
 
             <tr>
-                <td>gender</td>
+                <td>Gender</td>
                 <td><?php echo $user['gender']; ?></td>
             </tr>
 
@@ -43,7 +43,7 @@ require 'header.php';
             </tr>
 
             <tr>
-                <td>username</td>
+                <td>Username</td>
                 <td><?php echo $user['username']; ?></td>
             </tr>
 

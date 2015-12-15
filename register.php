@@ -6,15 +6,15 @@
 
         <h1>Student Enrollment</h1>
 
-        <form action="register_2.php" method="post" class="form-horizontal">
-            <label>first name :</label>
+        <form action="register_process.php" method="post" class="form-horizontal">
+            <label>First Name :</label>
             <input type="text" name="first_name" class="form-control" required="required"/><br />
-            <label>last name :</label>
+            <label>Last Name :</label>
             <input type="text" name="last_name" class="form-control" required="required"/><br />
-            <label>father name :</label>
+            <label>Father's Name :</label>
             <input type="text" name="father_name" class="form-control" required="required"/><br />
-            <label> Date of birth :</label>
-            <input type="text" name="$date_of_birth" class="form-control" required="required"/><br />
+            <label> Date of Birth :</label>
+            <input type="date" name="date_of_birth" class="form-control" required="required"/><br />
             <label> Gender :</label>
             <select name="gender" class="form-control"  required="required">
                 <option value="">--SELECT--</option>
@@ -22,6 +22,8 @@
                 <option value="Female">Female</option>
             </select>
             <br />
+            <label> Email :</label>
+            <input type="text" name="email" class="form-control" required="required"/><br />
             <label> Username :</label>
             <input type="text" name="username" class="form-control" required="required"/><br />
             <label>Password :</label>

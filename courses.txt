@@ -1,5 +1,5 @@
 Advance Database
-BigData
+Big Data
 Internet of Things
-Master seminar
-Date security
+Master Seminar
+Data Security

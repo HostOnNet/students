@@ -20,4 +20,4 @@ class Auth {
         $sql = "SELECT * FROM `students` WHERE `username`='" . $_SESSION['CURRENT_USER'] . "'";
         return DB::fetch1($sql);
     }
-} 
+}
